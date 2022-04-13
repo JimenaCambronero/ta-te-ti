@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.background{
+    background-color: #e9dfe6;
+    padding-top: 1px;
+    height: 90%;
+}
+
+.title{
+    font-family: 'Grape Nuts', cursive;
+    color: #f8acac;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 1em;
+}
+
+.display{
+    color: #e7b0bd;
+    font-size: 1.5em;
+    letter-spacing: 0.3em;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+}
+
+.hide{
+    display: none;
+}
+
+.container{
+    margin: 0 auto;
+    margin-bottom: 2em;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+}
+
+.tile{
+    background-color: rgb(71, 71, 69);
+    border: 1px solid white;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    cursor: pointer;
+}
+
+.playerX{
+    color: #86a051;
+}
+
+.playero{
+    color: #8b85c9;
+}
+
+.controls, button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5em;
+}
+
+.reset{
+    background-color: rgb(150, 199, 153);
+    color: rgb(12, 11, 11);
+    padding: 1em;
+    border-radius: 8px;
+    border: none;
+    margin: 1em;
+    cursor: pointer;
+}
+
+.contenedor-copy{
+    background-color: #eccde3;
+    height: 10%;
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+p.copy-parrafo {
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+    color: rgb(56, 55, 55);
+    padding-top: 0.5em;
+    margin-bottom: 0.1em;
+}
+
+.copy-links{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0.5em;
+    letter-spacing: 0.5em;
+}
+
+.copy-links a{
+    color: #a10761;
+}
+
+.iconos{
+    font-size: 0.5em;
+    margin: 0 0.5em;
+}
+
